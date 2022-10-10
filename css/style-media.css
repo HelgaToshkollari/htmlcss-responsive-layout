@@ -4,7 +4,7 @@
         flex-basis: 50%;
     }
 
-    .col-m-2-2{
+    .col-100{
         flex-basis: 100%;
     }
     
@@ -34,7 +34,7 @@
     .col-l-1-2{
         flex-basis: 50%;
     }
-    .col-l-2-2{
+    .col-l-100{
         flex-basis: 100%;
     }
     
@@ -49,10 +49,13 @@
         flex-basis: 25%;
     }
     .col-l-2-4{
-        flex-basis: 50%; /* calc(100% / 4 * 2);*/
+        flex-basis: calc(100% / 4 * 2);
     }
     .col-l-3-4{
         flex-basis: calc(100% / 4 * 3);
+    }
+    .padding-l-4{
+        padding: 0 4rem;
     }
 
 }
