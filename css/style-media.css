@@ -1,4 +1,4 @@
-@media screen (min-width : 768px) {
+@media screen and (min-width : 768px) {
 
     .col-m-1-2{
         flex-basis: 50%;
@@ -26,11 +26,10 @@
     
 }
 
-@media screen ( min-width: 920px ) {
+@media screen and ( min-width: 920px ) {
 
     .container{
         max-width:930px;
-
     }
     .col-l-1-2{
         flex-basis: 50%;
