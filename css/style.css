@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+     background-color: rgb(2, 64, 235);
+}
+.logo-container img{
+    width: 100%;
+
+}
+.menu-container{
+   display: none;
+}
+.menu-container li{
+    display: flex;
+    list-style: none ;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > *{
+    border: 1px solid rgb(255, 145, 0);
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.row > div {
+    background-color: rgb(131, 125, 216);
+}
