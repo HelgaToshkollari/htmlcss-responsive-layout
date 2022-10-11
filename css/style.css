@@ -43,6 +43,11 @@ nav{
     font-size: 1rem;
     
 }
+.btn-purple{
+    background-color: var(--blue-bell);
+    color: white;
+    padding: .5rem 2rem;
+}
 section{
     padding: 2rem 0;
 }
@@ -72,9 +77,7 @@ button i{
     list-style: none ;
     padding: .5rem;
 }
-.info > {
-    padding: 2rem 0;
-}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +85,7 @@ button i{
 }
 h2,p,h3{
     padding: 1rem 0;
+    line-height: 1.7rem;
 
 }
 .margin-negative{
@@ -134,14 +138,19 @@ h2,p,h3{
 .col-100 i{
     color: var(--azure);
     font-size: 4rem;
-
 }
-.margin-top{
-    padding-top: 4rem;
+.font-3{
+    font-size: 3rem;
+}
+.pad-1{
+    padding: 1rem;
 }
 .padding-1{
     padding: 1rem 0;
 
+}
+.margin-1{
+    margin: .5rem;
 }
 .img-container{
     width: 100%;
@@ -193,4 +202,9 @@ h2,p,h3{
 }
 .info{
     text-align: center;
+}
+.quote-over{
+    position: relative;
+    bottom: 60px;
+    right: 40px;
 }
