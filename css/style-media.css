@@ -44,8 +44,9 @@
         object-fit: contain;
     }
    .info{
-    text-align: left;
+        text-align: left;
    }
+  
 }
 
 @media screen and ( min-width: 920px ) {
@@ -90,6 +91,11 @@
         width: 100%;
         display: block;
         object-fit: contain;
-    }
+    } 
+    
+    .img-position{
+        position: relative;
+        bottom:-10%;
+   }
 
 }
