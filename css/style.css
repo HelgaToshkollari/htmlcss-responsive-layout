@@ -5,6 +5,9 @@
     --maximum-yellow-red: #FDC15Fff;
     --jet: #323232ff;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -15,28 +18,73 @@
     margin: 0 auto;
     padding: 0 1rem;
 }
+header{
+    background-color: var(--azure);
+}
 nav{
     display: flex;
     justify-content: space-between;
-     background-color: var(--azure);
+    align-items: center;
+    padding: .5rem 0;
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    padding: .3rem .5rem;
+}
+.btn-white{
+    background-color: white;
+}
+.btn-blue{
+    background-color: var(--azure);
+    margin-top: 1rem;
+    padding: .5rem 3rem;
+    color: white;
+    font-size: 1rem;
+    
 }
 section{
     padding: 2rem 0;
 }
+
 .logo-container img{
     width: 100%;
-
 }
-.menu-container{
-   display: no;
+.menu-icon{
+    color: white;
+    font-size: 1.5rem;
+}
+button i{
+    color: white;
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+.menu-container ul{
+    display: none;
+    align-items: center;
+}
+.menu-container a{
+    text-decoration: none;
+    padding: 0 .5rem;
+    color: white;
 }
 .menu-container li{
-    display: flex;
     list-style: none ;
+    padding: .5rem;
+}
+.info > {
+    padding: 2rem 0;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+    
+}
+h2,p{
+    padding: 1rem 0;
+
+}
+.margin-negative{
     margin: 0 -.5rem;
 }
 .row > *{
@@ -51,12 +99,31 @@ section{
 .card{
     padding: .5rem;
     border-radius: 20px;
-    min-height: 200px;
-    border: 1px solid black;
 }
 .bgc-secondary{
     background-color: var(--blue-bell);
 }
 .bgc-footer{
     background-color: var(--jet);
+}
+.c-primary{
+    color: var(--azure);
+}
+.img-phone-container{
+    position: relative;
+    bottom: -1rem;
+}
+.img-phone-container img{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+.col-100{
+    text-align: center;
+    line-height: 1.5rem;
+}
+.col-100 i{
+    color: var(--azure);
+    font-size: 4rem;
+
 }
