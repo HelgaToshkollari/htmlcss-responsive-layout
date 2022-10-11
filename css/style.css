@@ -80,7 +80,7 @@ button i{
     flex-wrap: wrap;
     
 }
-h2,p{
+h2,p,h3{
     padding: 1rem 0;
 
 }
@@ -112,6 +112,9 @@ h2,p{
 .c-primary{
     color: var(--azure);
 }
+.c-secondary{
+    color: var(--blue-bell);
+}
 .c-white{
     color: white;
 }
@@ -136,8 +139,8 @@ h2,p{
 .margin-top{
     padding-top: 4rem;
 }
-.padding-2{
-    padding: 0 2rem;
+.padding-1{
+    padding: 1rem 0;
 
 }
 .img-container{
@@ -145,8 +148,11 @@ h2,p{
 }
 .img-container img{
     width: 100%;
+    object-fit: cover;
+    display: block;
 
 }
+
 .text-center{
     text-align: center;
 }
@@ -163,4 +169,28 @@ h2,p{
     display: flex;
     justify-content: center;
 }
-.
+.img-container-profile{
+    width:100% ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.img-container-profile img{
+    display: block;
+    object-fit: cover;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+   
+   
+}
+.fa-quote-left{
+    margin-right: .5rem;
+}
+.fa-quote-right{
+    margin-left: .5rem;
+}
+.info{
+    text-align: center;
+}

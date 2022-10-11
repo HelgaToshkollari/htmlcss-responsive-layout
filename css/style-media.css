@@ -43,6 +43,9 @@
         display: block;
         object-fit: contain;
     }
+   .info{
+    text-align: left;
+   }
 }
 
 @media screen and ( min-width: 920px ) {
