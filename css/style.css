@@ -48,6 +48,13 @@ nav{
     color: white;
     padding: .5rem 2rem;
 }
+.btn-l-white{
+    background-color: white;
+    color: var(--blue-bell);
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
 section{
     padding: 2rem 0;
 }
@@ -121,6 +128,9 @@ h2,p,h3{
 }
 .c-white{
     color: white;
+}
+.c-yellow{
+    color: var(--maximum-yellow-red);
 }
 .img-phone-container{
     position: relative;
@@ -219,4 +229,7 @@ h2,p,h3{
     position: relative;
     bottom: 60px;
     right: 40px;
+}
+a {
+    color: white;
 }
